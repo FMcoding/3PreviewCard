@@ -115,9 +115,14 @@ h1 {
     main {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        align-items: center;
         overflow: visible;
         height: auto;
+        margin: 50px;
+    }
+
+    .sedans-box, .suvs-box, .luxury-box {
+        width: 100%;
     }
 
     .container {
